@@ -406,6 +406,7 @@ header{
     display: inline-block;
 }
 .price{
+	padding-bottom: 15px;
     font-size: 36px;
     color: #333;
 }
@@ -425,9 +426,9 @@ header{
     font-size: 16px;
     color: #8e8e8e;
 }
-.p_list{
-    margin-bottom: 30px;
-    line-height: 30px;
+.p_list ul li{
+    padding-bottom: 10px;
+    
 }
 
 /*buy start*/
@@ -459,14 +460,13 @@ header{
 }
 .test_border{
     border:1px solid #8e8e8e;
-
-    padding: 39px 29px;
+     padding: 39px 29px;
 }
 .test_img{
 
 }
 .test_img img{
-    width: 100%;
+    width: 100%
 }
 .test_text{
 line-height: 28px;
@@ -512,5 +512,127 @@ line-height: 28px;
 
 
 /*testimonial end*/
+
+
+/*contact start*/
+.contact{
+	padding: 40px 0 80px;
+}
+.b_contact{
+	
+	border: 1px solid #8e8e8e;
+}
+.con_h1{
+	margin: -23px auto 0;
+    width: 270px;
+	color: #333333;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    
+	background-color: #fff;
+}
+
+.con_form{
+	padding: 70px 0;
+}
+.form-control{
+	border: 0;
+	border-bottom: 1px solid #8e8e8e;
+}
+.form-control:focus, input:focus, placeholder:focus{
+	color: #333;
+	border-bottom: 1px solid black;
+	box-shadow: none;
+}
+input:focus::placeholder {
+  color: black;
+}
+textarea:focus::placeholder{
+	color: black;
+}
+.btn_mrgin{
+	margin-bottom: 20px;
+}
+.send_btn{
+	padding: 15px 25px;
+	border: 1px solid #8e8e8e;
+	border-radius: 0;
+	margin-top: 65px;
+}
+.send_btn a{
+	text-decoration: none;
+	color: #8e8e8e;
+}
+/*contact end*/
+/*footer start*/
+.footer{
+	padding-bottom: 30px;
+	background-image: url(../images/footer.jpg);
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.f_1{
+	
+	
+}
+.f_h1{
+	padding: 0;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.f_1 p{
+	color: #fff;
+	padding: 50px 0;
+	line-height: 28px;
+}
+.s_icon {
+	padding-bottom: 60px;
+}
+.s_icon li a i{
+	width: 45px;
+	height: 45px;
+	font-size: 26px;
+	padding: 10px 5px;
+	text-align: center;
+	border: 1px solid #fff;
+	color: #fff;
+	transition: .5s;
+	
+}
+.s_icon li a{
+	transition: .5s;
+}
+.s_icon :hover{
+    background: #fff;
+    color: #333;
+}
+.f_2{
+	padding: 20px 0;
+	border-top: 2px solid #ddd;
+}
+
+.copyright{}
+.copyright p{
+	color: #fff;
+}
+.l_list
+{
+  
+}
+.l_list ul li a{
+	padding: 0 10px;
+	text-decoration: none;
+	color: #fff;
+	transition: .5s;
+}
+.l_list ul li a:hover{
+	color: #333333 !important;
+}
+
+
+/*footer end*/
 
 
