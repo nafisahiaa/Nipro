@@ -80,6 +80,9 @@
 	.price_wrap{
 		padding-bottom: 50px;
 	}
+	.pad {
+    padding: 30px 0;
+}
 
   	/*testimonial*/
 	.test_btn{
@@ -94,11 +97,37 @@
 	.test_img{
 		padding-bottom: 20px;
 	}
+	/*contact*/
+		.f{
+		padding-top: 30px;
+	}
+	.send_btn{
+		margin-top: 50px;
+	}
+	.contact {
+    padding: 40px 0 40px;
+}
 	/*footer*/
-
-
+	.s_icon li {
+		padding-bottom: 15px;
+	}
+	.s_icon li a i {
+    width: 63px;
+    height: 55px;
+    font-size: 25px;
+    padding: 12px 8px;
+	}
+	.copyright{
+		text-align: center;
+	}
+	.l_list
+           {
+  text-align: start;
+}
 
 }
+
+
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -118,16 +147,16 @@
     margin-top: 0;
 		
 }
-			/*banner start*/
-	    .bs_item {
+	/*banner start*/
+	 .bs_item {
              margin: 160px 0 160px;
         }
 	
-		.bs_item h2{
+	.bs_item h2{
 			font-size: 45px;
 		}
 
-		/* about start */
+	/* about start */
 	.about {
     padding-bottom: 90px;
 }

@@ -79,7 +79,7 @@ header{
     border: none;
     padding: 5px 0;
 }
-/*welcome start*/
+/*banner start*/
 .banner{
 	background-image: url(../images/SLIDER.jpg);
 	background-position:center;
@@ -120,6 +120,9 @@ header{
 	text-decoration: none;
 	color: #333333;
 
+}
+.bs_item button i{
+	padding-left: 10px;
 }
 .bs_item button:hover{
 	background-color: #8e8e8e;
@@ -208,11 +211,23 @@ header{
 	border-radius: 0;
 }
 
-
-.sec1_txt:hover .sec_btn a{
-    color: #333333 !important;
+.ws_item:hover{
+	border: 1px solid #333;
+	cursor: pointer;
 }
-
+.ws_item:hover .ws_icon{
+	color: #333;
+}
+.ws_item:hover .btn{
+    color: #333333 !important;
+    border-color: #333;
+    font-weight: 700;
+    
+	
+}
+.p_title:hover .p_btn a{
+	color: #333;
+}
 /*about start*/
 .about{
     padding-bottom: 120px;
@@ -243,9 +258,17 @@ header{
 	text-decoration: none;
 	color: #8e8e8e;
 }
-.a_txt button:hover a{
-	color: #333333;
-	border-color: #333333;
+.a_txt button i{
+	padding-left: 10px;
+}
+.a_txt button:hover {
+	color: #333333 !important;
+    border-color: #333;
+    font-weight: 700;
+    box-shadow:  3px 3px 5px -2px rgba(142,142,142,0.6);
+}
+.a_txt button a:hover{
+	color: #333;
 }
 
 /*about end*/
@@ -267,7 +290,7 @@ header{
 
 .portfolio-nav ul{
     margin: 0 auto;
-    float: none;
+    
     text-align: center;
 }
 .portfolio-nav ul li{
@@ -294,6 +317,50 @@ header{
     width: 100%;
     display: block;
 }
+
+
+.o_2{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	opacity: 0;
+	
+	transition: .4s;
+}
+
+.project_title{
+    background: #fff;
+    padding: 10px 20px;
+    bottom: 0px;
+    transition: .3s;
+    width: 100%;
+    position: absolute;
+    cursor: default;
+}
+.project_title h4{
+    text-transform: uppercase;
+    color: #333;
+    font-size: 18px;
+}
+.project_title p{
+    font-size: 16px;
+    color: #8e8e8e;
+    margin-bottom: 0;
+}
+
+    
+.o_2:hover{
+	opacity: 1;
+}
+
+
+
 /*choose nipro*/
 .choose{
     padding-bottom: 80px;
@@ -324,8 +391,11 @@ header{
     border-bottom: 1px solid #333333;
     cursor: pointer;
 }
-.c_head:hover, .s_item{
+
+.s_item:hover .c_head {
+	
     color: #333;
+	
 }
 
 
@@ -411,7 +481,7 @@ header{
     color: #333;
 }
 .p_title button{
-		padding: 10px !important;
+	padding: 10px !important;
 	font-size: 16px;
 	font-weight: 400;
 	font-family: 'Roboto', sans-serif;
@@ -422,6 +492,9 @@ header{
 	text-decoration: none;
 	color: #8e8e8e;
 }
+.p_title button i{
+	padding-left: 10px;
+}
 .price sub{
     font-size: 16px;
     color: #8e8e8e;
@@ -430,6 +503,22 @@ header{
     padding-bottom: 10px;
     
 }
+
+.p_title:hover{
+	border: 1px solid #333;
+	cursor: pointer;
+}
+.p_title:hover .p_btn{
+    color: #333333 !important;
+    border-color: #333;
+    font-weight: 700;
+    box-shadow:  3px 3px 5px -2px rgba(142,142,142,0.6);
+	
+}
+.p_title:hover .p_btn a{
+	color: #333;
+}
+
 
 /*buy start*/
 .buy{
@@ -450,7 +539,23 @@ header{
 	text-decoration: none;
 	color: #333333 !important;
 }
+
+.buy_btn i{
+	padding-left: 10px;
+}
+.buy button:hover {
+	color: #333333 !important;
+    border-color: #333;
+    font-weight: 700;
+    box-shadow:  3px 3px 5px -2px rgba(142,142,142,0.6);
+}
+.buy button a:hover{
+	color: #333;
+}
 /*buy end*/
+
+
+
 /*testimonial start*/
 .testimonial{
     padding: 90px 0;
@@ -562,6 +667,18 @@ textarea:focus::placeholder{
 .send_btn a{
 	text-decoration: none;
 	color: #8e8e8e;
+}
+.send_btn i{
+	padding-left: 10px;
+}
+.contact button:hover {
+	color: #333333 !important;
+    border-color: #333;
+    font-weight: 700;
+    box-shadow:  3px 3px 5px -2px rgba(142,142,142,0.6);
+}
+.contact:hover .send_btn a{
+	color: #333;
 }
 /*contact end*/
 /*footer start*/
